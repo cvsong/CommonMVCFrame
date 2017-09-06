@@ -31,4 +31,8 @@ dependencies {
     //黄油刀
     compile 'com.jakewharton:butterknife:8.2.1'
     apt 'com.jakewharton:butterknife-compiler:8.2.1'
+
+    //常用工具
+    compile 'com.blankj:utilcode:1.8.1'
+
 }

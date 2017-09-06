@@ -3,16 +3,15 @@ package com.cvsong.study.commonmvcframe.business.base;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.view.Window;
 import android.widget.FrameLayout;
 
 import com.cvsong.study.commonmvcframe.R;
+import com.cvsong.study.commonmvcframe.business.app.AppApplication;
 import com.cvsong.study.commonmvcframe.common.base.BaseActivity;
 import com.cvsong.study.commonmvcframe.common.wiget.statuslayout.OnRetryListener;
 import com.cvsong.study.commonmvcframe.common.wiget.statuslayout.OnShowHideViewListener;
 import com.cvsong.study.commonmvcframe.common.wiget.statuslayout.StatusLayoutManager;
 
-import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 
@@ -27,15 +26,17 @@ public abstract class AppBaseActivity extends BaseActivity {
     FrameLayout viewContent;
     protected StatusLayoutManager statusLayoutManager;
     private Unbinder unbinder;
+    protected AppApplication appApplication;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setThemStyle();//设置主题样式
-
         setContentView(R.layout.activity_app_base);
+
         viewContent = (FrameLayout) findViewById(R.id.view_content);
         toolbar = (Toolbar) findViewById(R.id.toolbar);
+        appApplication = (AppApplication) getApplication();
 
         statusLayoutManager = StatusLayoutManager.newBuilder(this)
                 .contentView(getViewLayout())
