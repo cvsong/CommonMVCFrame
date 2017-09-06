@@ -1,6 +1,177 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
+    <color name="cover_color">#66ffffff</color>
+    <color name="normal_yellow">#ffd761</color>
+    <color name="common_blue">#3FA9C4</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#fff</color>
+
+    <!-- 主色调 绿 -->
+    <color name="normal_green">#7ece22</color>
+    <color name="dark_green">#6bb911</color>
+    <color name="light_green">#e5f6d0</color>
+    <color name="bg_titlbar">#60a8ee</color>
+
+    <!-- 辅色调 蓝 黄 红 -->
+    <color name="normal_blue">#53c6ff</color>
+    <color name="dark_blue">#40bcf9</color>
+    <color name="light_blue">#31a9e5</color>
+    <color name="blue_489ef3">#489ef3</color>
+    <color name="pearl_blue">#cfd8e1</color>
+
+
+
+    <!--字体颜色-->
+    <color name="font_white">#fff</color>
+    <color name="font_gray_4c4c4c">#4C4C4C</color>
+    <color name="font_gray_4d4d4d">#4D4D4D</color>
+    <color name="font_gray_4a4a4a">#4A4A4A </color>
+    <color name="font_gray_cccccc">#CCCCCC </color>
+    <color name="font_blue_5ca1e6">#5CA1E6 </color>
+    <color name="font_blue_34b2d1">#34B2D1</color>
+    <color name="font_blue_3fa9c4">#3FA9C4 </color>
+    <color name="font_black_4B4B4B">#4B4B4B </color>
+    <color name="font_black">#333</color>
+    <color name="font_black_333333">#333333</color>
+    <color name="font_black_151515">#151515</color>
+    <color name="font_green">#7bd024</color>
+    <color name="font_green_4cd">#4CD964</color>
+    <color name="font_green_303030">#303030</color>
+    <color name="font_red">#ff805c</color>
+    <color name="font_red_E65050">#E65050</color>
+    <color name="font_red_ff6">#FF6161</color>
+    <color name="font_red_f15">#F15657</color>
+    <color name="font_red_f56d6b">#F56D6B</color>
+    <color name="font_red_f15657">#f15657</color>
+    <color name="font_red_ff4">#FF4351</color>
+    <color name="font_orange">#ffff6e10</color>
+    <color name="font_yellow">#FFDB61</color>
+    <color name="font_yellow_ffC63f">#FFC63F</color>
+    <color name="font_yellow_f5a623">#F5A623</color>
+    <color name="font_yellow_ffa94d">#FFA94D</color>
+    <color name="font_yellow_fff566">#FFF566</color>
+    <color name="font_hint_gray">#ccc</color>
+    <color name="font_dark_gray_2">#5f9f15</color>
+    <color name="font_unit_gray">#b6e7ff</color>
+    <color name="font_date">#75caff</color>
+    <color name="font_gray_66">#666666</color>
+    <color name="font_gray_7f">#7F7F7F</color>
+    <color name="font_gray_99">#999999</color>
+    <color name="font_gray_b3b3b3">#B3B3B3</color>
+    <color name="font_gray_bfb">#BFBFBF</color>
+    <color name="font_light_red">#ff6623</color>
+    <color name="font_blue_009fe9">#009FE9</color>
+    <color name="font_blue_61a">#61AEFF</color>
+    <color name="font_main_color">#763f01</color>
+    <color name="font_blue_href">#01aae0</color>
+    <color name="font_blue_489">#489EF3</color>
+    <color name="font_yellow_f6a623">#f6a623</color>
+    <color name="font_purple_6150d4">#B0A7E8</color>
+    <color name="font_yellow_ffd133">#FFD133</color>
+    <color name="font_red_ffa590">#FFA590</color>
+    <color name="font_yellow_f6c823">#F6C823</color>
+    <color name="font_red_ff006b">#FF006B</color>
+    <color name="font_red_ffbad2">#FFBAD2</color>
+    <color name="font_blue_475D76">#475D76</color>
+    <color name="font_blue_129ffa">#129FFA</color>
+    <color name="font_purple_B0A7E8">#B0A7E8</color>
+    <color name="font_purple_6150D4">#B0A7E8</color>
+    <color name="font_yellow_FFD133">#FFD133</color>
+    <color name="font_green_7ED321">#7ED321</color>
+    <color name="font_green_8ED328">#8ED328</color>
+    <color name="font_green_79c255">#79C255</color>
+    <color name="font_zise">#6150D4</color>
+    <color name="font_red_FFA590">#FFA590</color>
+    <color name="font_black_f7f7f7f">#f7f7f7</color>
+    <color name="font_blue_3f">#3FA9C3</color>
+    <color name="font_yellow_ffdd51">#FFDD51</color>
+    <color name="font_white_aadbe6">#AADBE6</color>
+    <color name="font_grew_af8345">#AF8345</color>
+
+    <!--背景颜色-->
+    <color name="bg_white">#ffffff</color>
+    <color name="bg_empty">#F3F3F3</color>
+    <color name="bg_white_50P">#50ffffff</color>
+    <color name="bg_white_20P">#20ffffff</color>
+    <color name="bg_white_f3f">#F3F3F3</color>
+    <color name="bg_main">#e7efed</color>
+    <color name="bg_light_gray">#f9f9f9</color>
+    <color name="bg_dark_gray">#c9c6c6</color>
+    <color name="bg_orange_fb7e38">#fb7e38</color>
+    <color name="bg_orange_ff6e10">#ff6e10</color>
+    <color name="bg_orange_ff7e2a">#ff7e2a</color>
+    <color name="bg_common_titlebar">#fec82e</color>
+    <color name="bg_common_titlebar_clicked">#fca400</color>
+    <color name="bg_orange_FE9526">#FE9526</color>
+    <color name="bg_orange_ffa72a">#ffa72a</color>
+    <color name="bg_orange_33ff982a">#33ff982a</color>
+    <color name="bg_yellow_fdb435">#fdb435</color>
+    <color name="bg_yellow_ffce3a">#ffce3a</color>
+    <color name="bg_yellow_ffc517">#ffc517</color>
+    <color name="bg_yellow_fff5d8">#fff5d8</color>
+    <color name="bg_yellow_fdd059">#fdd059</color>
+    <color name="bg_yellow_f5da73">#f5da73</color>
+    <color name="bg_yellow_f5a623">#F5A623</color>
+    <color name="bg_yellow_fdb32b">#FDB32B</color>
+    <color name="bg_yellow_f9e59a">#f9e59a</color>
+    <color name="bg_black_acacac">#acacac</color>
+    <color name="bg_blue_2181f7">#2181f7</color>
+    <color name="bg_blue_3399ff">#3399ff</color>
+    <color name="bg_blue_34b2d1">#34B2D1</color>
+    <color name="bg_blue_2396b3">#2396B3</color>
+    <color name="bg_blue_199cfc">#199cfc</color>
+    <color name="bg_blue_2f94ae">#2F94AE</color>
+    <color name="bg_blue_title">#61AEFF</color>
+    <color name="bg_blue_61a">#61AEFF</color>
+    <color name="bg_blue_56A">#56A3F5</color>
+    <color name="bg_gray_e1">#E1E1E1</color>
+    <color name="bg_gray_d8">#d8d8d8</color>
+    <color name="bg_gray_b3b3b3">#B3B3B3</color>
+    <color name="bg_gray_empty">#F2F2F2</color>
+    <color name="bg_gray_f3f3f3">#F3F3F3</color>
+    <color name="bg_gray_e0e0e0">#E0E0E0</color>
+    <color name="bg_gray_e1e1e1">#E1E1E1 </color>
+    <color name="bg_main_f5f5f5">#f5f5f5</color>
+    <color name="bg_re_upload">#4D000000</color>
+    <color name="bg_f2f2f2">#f2f2f2</color>
+    <color name="bg_orange_31ff7e2a">#31ff7e2a</color>
+    <color name="bg_black_50t">#7f000000</color>
+    <color name="bg_black_50p">#50000000</color>
+    <color name="bg_black_70p">#70000000</color>
+    <color name="bg_gray_97">#979797</color>
+    <color name="bg_gray_d9">#D9D9D9</color>
+    <color name="bg_gray_ddd">#DDDDDD</color>
+    <color name="bg_red_ff7">#FF77AD</color>
+    <color name="bg_red">#ff0000</color>
+    <color name="bg_red_f56d6b">#F56D6B</color>
+    <color name="bg_black_d800080a">#D800080A</color>
+    <color name="bg_gray_d8d8d8">#D8D8D8</color>
+    <color name="bg_gray_f8f8f8">#F8F8F8</color>
+    <color name="font_yellow_ffc640">#ffc640</color>
+    <color name="bg_gray_semi_corner">#030303</color>
+    <color name="cycle_image_bg">#44222222</color>
+    <color name="bg_black_70">#00000000</color>
+
+    <!-- 分割线等 黑 白 -->
+
+    <color name="divider_e1e1e1">#E1E1E1</color>
+    <color name="divider_e6e6e6">#e6e6e6</color>
+    <color name="divider_4f4e58">#4f4e58</color>
+    <color name="divider_ffffff">#ffffff</color>
+    <color name="tv_long_time">#ab1a1c</color>
+    <color name="normal_red">#ff805e</color>
+    <color name="divider_399ab3">#399AB3</color>
+
+     <!--透明-->
+    <color name="transparent">#00000000</color>
+
+    <!--按钮相关颜色-->
+    <color name="btn_font_34">#34B2D1</color>
+    <color name="btn_font_33">#333333</color>
+    <color name="btn_enabele">#34B2D1</color>
+    <color name="btn_pressed">#34B2D1</color>
+    <color name="btn_disable">#D9D9D9 </color>
+
+
 </resources>
